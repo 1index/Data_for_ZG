@@ -6,7 +6,7 @@ This repository contains three folders used to support the analyses reported in 
 
 1. `3D Deformation Inversion`
    - Contains `Cal_3D_ENU_SPF.m`, a MATLAB script for inverting three-dimensional East-North-Up (ENU) deformation components from multi-track InSAR line-of-sight observations.
-   - The script samples incidence angle, azimuth, slope, and aspect rasters, matches neighboring observations among the P26, P128, and P62 tracks, applies a slope-parallel flow constraint, and writes `result_U_SPF.txt`, `result_E_SPF.txt`, and `result_N_SPF.txt`.
+   - The script samples incidence angle, azimuth, slope, and aspect rasters, matches neighboring observations among the tracks, applies a slope-parallel flow constraint, and writes `result_U_SPF.txt`, `result_E_SPF.txt`, and `result_N_SPF.txt`.
 
 2. `Landslide Thickness Inversion`
    - Contains `Thickness_inversion_landslide.py`, a Python implementation for estimating landslide thickness from 3D velocity fields.
